@@ -2,7 +2,7 @@
 boy = float(input("Boyunuzu Daxil edin:"))
 kutle = float(input("Kütləni Daxil edin:"))
 
-bki = kutle / boy * boy
+bki = kutle / (boy * boy)
 
 if bki < 18.5:
     print("Zeif") 
